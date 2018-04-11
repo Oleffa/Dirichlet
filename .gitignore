@@ -1,3 +1,4 @@
 virtualenv/*
 dirichlet/__pycache__/*
 .ipynb_checkpoints/*
+learner/__pycache__/*
