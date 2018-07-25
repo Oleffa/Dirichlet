@@ -33,7 +33,7 @@ class Dirichlet(object):
         #print(out)
         self._coef = gamma(np.sum(self._alpha)) / \
                      reduce(mul, [gamma(a) for a in self._alpha])
-    def getAlpha(self)
+    def getAlpha(self):
         return self.alpha
     def pdf(self, x):
         '''Returns pdf value for `x`.'''
